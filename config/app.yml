@@ -1,0 +1,35 @@
+mysql:
+  user:
+    "root"
+  password:
+    "85614455"
+  host:
+    "192.168.71.100:3306"
+  name:
+    "go_chat"
+redis:
+  host:
+    "192.168.71.130:6379"
+  password:
+    "85614455"
+  db:
+    "0"
+  poolSize:
+    "30"
+  minIdleConn:
+    "30"
+oss:
+  EndPoint:
+    "oss-cn-shenzhen.aliyuncs.com"
+  AccessKeyId:
+    "LTAI5tHeXacLvg6vdjDArW5X"
+  AccessKeySecret:
+    "qCbHVyawPxIQq2ouNV78Kd9q3OgMiU"
+  Bucket:
+    "imchat123"
+timeout:
+  DelayHeartbeat: "3"   #延迟心跳时间  单位秒
+  HeartbeatHz: "30"   #每隔多少秒心跳时间
+  HeartbeatMaxTime: "30000"  #最大心跳时间  ，超过此就下线
+  RedisOnlineTime: "4"  #缓存的在线用户时长   单位H
+
