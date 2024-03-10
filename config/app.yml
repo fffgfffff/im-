@@ -20,11 +20,11 @@ redis:
     "30"
 oss:
   EndPoint:
-    "oss-cn-shenzhen.aliyuncs.com"
+    "xxx"
   AccessKeyId:
-    "LTAI5tHeXacLvg6vdjDArW5X"
+    "xxx"
   AccessKeySecret:
-    "qCbHVyawPxIQq2ouNV78Kd9q3OgMiU"
+    "xxx"
   Bucket:
     "imchat123"
 timeout:
